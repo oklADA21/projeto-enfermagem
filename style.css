@@ -1,0 +1,66 @@
+/*CONFIG PADRÃO*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+}
+
+.contanier{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+clear{
+    clear:both;
+}
+
+.left{
+    float: left;
+}
+
+
+.rigth{
+    float: right;
+}
+
+/*HEADER*/
+
+header{
+    height: 80px;
+    background-color: #7288cc;
+}
+
+/*BOX CAPTURA*/
+
+section.box-captura{
+    height: 200px;
+    background-color: #132459;
+}
+/*CONTENT*/
+
+section.content{
+    padding: 0 20%;
+    height: 300px;
+    background-color: #7c98F2;
+}
+div.post{
+    height: 100%;
+    background-color: green;
+    width: 50%;
+}
+
+div.sidebar{
+    height: 100%;
+    background-color: purple;
+    width: 20%;
+}
+
+/*FOOTER*/
+footer{
+    height: 300px;
+    background-color: #147779;
+}
